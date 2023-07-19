@@ -434,6 +434,18 @@ nav{
 
     }
 
+    .goat-information{
+        font-size: 15px;
+    }
+
+    .play-text{
+        font-size: 50px;
+    }
+
+    .goat-text{
+        font-size: 80px;
+    }
+
     .button-link , .btn-primary{
         padding: 15px 30px;
         margin-bottom: 20px;
