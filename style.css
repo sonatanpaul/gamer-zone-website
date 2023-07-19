@@ -109,6 +109,10 @@ nav{
 
 }
 
+.fa-regular{
+    margin-right: 10px;
+}
+
 .goat-information{
     color: #534C64;
     font-size: 20px;
@@ -480,6 +484,7 @@ nav{
         padding: 0%;
   }
 
+  
 
   .play-text-description{
         line-height: 30px;
