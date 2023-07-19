@@ -487,6 +487,10 @@ nav{
         font-size: 50px;
     }
 
+    .fa-regular{
+        font-size: 20px;
+    }
+
     .goat-text{
         font-size: 80px;
     }
@@ -628,7 +632,7 @@ nav{
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 25px;
 }
 
@@ -639,7 +643,7 @@ nav{
 
   /* Tablet Version  */
 
-  @media only screen and (min-width:800px) and (max-width: 992px) {
+  @media only screen and (min-width:577px) and (max-width: 992px) {
     
         nav{
             flex-direction: column;
