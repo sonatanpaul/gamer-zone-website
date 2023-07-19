@@ -109,8 +109,10 @@ nav{
 
 }
 
+
 .fa-regular{
     margin-right: 10px;
+
 }
 
 .goat-information{
@@ -478,7 +480,7 @@ nav{
         height: 300px;
 
     }
-
+    
     .goat-information{
         font-size: 15px;
     }
@@ -652,8 +654,9 @@ nav{
 
         }
 
-        .nav-logo{
+        .nav-logo img{
             margin-top: 20px;
+            width: 50%;
         }
 
         .nav-link{
