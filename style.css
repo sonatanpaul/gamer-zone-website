@@ -590,6 +590,8 @@ nav{
 .various-games-container{
     display: grid;
     height: 300px;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(3,1fr);
     padding: 0%;
     margin: 0%;
@@ -598,9 +600,10 @@ nav{
 
 .games-link{
     
-    font-size: 10px;
+    font-size: 12px;
     padding: 0%;
     margin: 0%;
+    gap: 5px;
 }
 
 .games-link:hover{
@@ -609,7 +612,8 @@ nav{
 }
 
 .games-link img{
-    width: 35px;
+    width: 15px;
+    margin: ;
 }
 
 .footer-container{
