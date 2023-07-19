@@ -69,3 +69,43 @@ nav{
 .titok-link{
     font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS Style  */
+
+
+@media only screen and (max-width: 576px) {
+
+    nav,.nav-data{
+        flex-direction: column;
+        padding: 0%;
+       padding-top: 20px;
+       
+    }
+
+    nav{
+        box-shadow: none;
+    }
+
+    .social-link{
+        margin-top: 10px;
+    }
+    
+    .nav-logo-title{
+        padding-left: 10px;
+    }
+
+    .nav-data{
+        line-height: 200%;
+    }
+    
+  }
