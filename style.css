@@ -278,6 +278,42 @@ nav{
     }
 
 
+    /* Various Games Style  */
+
+
+    .various-games-color{
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }
+
+    .various-games-container{
+    margin: 0 auto;
+    max-width: 1440px;
+    gap: 25px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    }
+
+    .games-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding:18px 20px;
+    border-radius: 50px;
+    background: #FFF;
+    }
+
+    .games-link:hover{
+        border: 1px solid #F948B2;
+        color: #F948B2;
+
+    }
+
+
 
 
 /* Responsive CSS Style  */
@@ -417,6 +453,30 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
 
+}
+
+.various-games-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.games-link{
+    
+    font-size: 10px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.games-link:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
+
+.games-link img{
+    width: 35px;
 }
 
 
