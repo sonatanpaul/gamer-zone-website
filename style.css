@@ -313,6 +313,64 @@ nav{
 
     }
 
+    /* footer CSS Style  */
+    .footer-color{
+        background-color: #0B0223;
+        height: 600px;
+        color: white;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        gap: 20px;
+        font-size: 33px;
+        font-weight: 700;
+        font-weight: 700;
+    }
+
+    .others-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        margin-top: 35px;
+    }
+
+    .footer-social-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-size: 50px;
+        margin-top: 35px;
+        
+    }
+
+    .icon{
+        color: white;
+    }
+
+    .footer-terms-container{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+        
+    }
+
+    .copy-right{
+        text-align: center;
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+    }
 
 
 
@@ -479,12 +537,35 @@ nav{
     width: 35px;
 }
 
+.footer-container{
+   padding: 0%;
+}
 
+.others-link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.footer-social-link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.footer-terms-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 16px;
+    margin-left: 25px;
 }
 
 
 
 
+}
 
   /* Tablet Version  */
 
